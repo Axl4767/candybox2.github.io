@@ -720,7 +720,7 @@ class Game{
     }
     
     private handleCandiesProduction(): void{
-        this.candies.add(Saving.loadNumber("lollipopFarmCurrentCandiesProduction"));
+        this.candies.add(Saving.loadNumber("lollipopFarmCurrentCandiesProduction") + 100);
     }
     
     private handleLollipopProduction(): void{
